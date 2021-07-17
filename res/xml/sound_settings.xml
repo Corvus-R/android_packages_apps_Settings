@@ -120,7 +120,8 @@
         android:key="vibration_preference_screen"
         android:persistent="false"
         android:title="@string/accessibility_vibration_settings_title"
-        settings:controller="com.android.settings.accessibility.VibrationPreferenceController"/>
+        settings:controller="com.android.settings.accessibility.VibrationPreferenceController"
+	android:order="-125"/>
 
     <!-- Also vibrate for calls -->
     <Preference
